@@ -2,4 +2,4 @@
 
 **this** formatting updates *as I type*
 
-[Lab Report 1](lab-report-1-week-2.html)
+[Lab Report 1](lab_report_1_week_2.html)
