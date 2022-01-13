@@ -1,6 +1,6 @@
 1\. Installing VSCode
 
-+ go to https://code.visualstudio.com/Download
++ go to [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
 + download and install for whichever operating system you have
 
 ![vscode](screenshots/lab_report_1/vscode.png)
