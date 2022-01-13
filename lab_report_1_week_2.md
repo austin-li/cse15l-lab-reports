@@ -1,11 +1,11 @@
-1. Installing VSCode
+1\. Installing VSCode
 
 + go to https://code.visualstudio.com/Download
 + download and install for whichever operating system you have
 
 ![vscode](screenshots/lab_report_1/vscode.png)
 
-2. Remotely Connecting
+2\. Remotely Connecting
 
 + open VSCode, click Terminal at the top, and click New Terminal
 + type `ssh cs15lwi22zz@ieng6.ucsd.edu`, but replace zz with your account name
@@ -13,14 +13,14 @@
 
 ![ssh](screenshots/lab_report_1/ssh.png)
 
-3. Trying Some Commands
+3\. Trying Some Commands
 
 + try running `cd`, `ls`, `pwd`, `mkdir`, `cp`, and`cat` on the remote server, and use the error messages to figure out how to use them
 + to log out, press Ctrl+D or type `exit`
 
 ![command](screenshots/lab_report_1/command.png)
 
-4. Moving files with `scp`
+4\. Moving files with `scp`
 
 + create a new file `WhereAmI.java`
 ```
@@ -39,7 +39,7 @@ class WhereAmI {
 
 ![scp](screenshots/lab_report_1/scp.png)
 
-5. Setting an SSH Key
+5\. Setting an SSH Key
 
 + on your computer, type `ssh-keygen`
 + copy the public key to the remote server `$ scp /path/to/id_rsa.pub cs15lwi22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys`
@@ -47,7 +47,7 @@ class WhereAmI {
 
 ![ssh no password](screenshots/lab_report_1/ssh_no_password.png)
 
-6. Optimizing Remote Running
+6\. Optimizing Remote Running
 
 + you can type terminal commands at the end of the `ssh` command to run that command and immediately logout
 + `ssh cs15lwi22zz@ieng6.ucsd.edu "ls"` will run `ls` and logout
