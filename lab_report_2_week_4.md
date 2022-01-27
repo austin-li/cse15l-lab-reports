@@ -6,7 +6,7 @@
 
 ![change1sympton](screenshots/lab_report_2/change1symptom.png)
 
-The symptom was that we were getting a StringIndexOutOfBoundsException when using substring. The bug was that closeParen was -1 because the test file had no link in it.
+The symptom is that we were getting a StringIndexOutOfBoundsException when using substring. The bug is that closeParen is -1 because the test file had no link in it.
 
 # Change 2
 
@@ -16,7 +16,7 @@ The symptom was that we were getting a StringIndexOutOfBoundsException when usin
 
 ![change2sympton](screenshots/lab_report_2/change2symptom.png)
 
-The symptom was that we were getting a StringIndexOutOfBoundsException when using substring. The bug is similar to before where closeParen is -1, but Change 1 didn't fix this bug because in this case the test file had a partially completed link. 
+The symptom is that we were getting a StringIndexOutOfBoundsException when using substring. The bug is similar to before where closeParen is -1, but Change 1 didn't fix this bug because in this case the test file had a partially completed link. 
 
 # Change 3
 
@@ -26,4 +26,4 @@ The symptom was that we were getting a StringIndexOutOfBoundsException when usin
 
 ![change3sympton](screenshots/lab_report_2/change3symptom.png)
 
-The symptom was that getLinks should have returned an empty List, but it returned a List with 1 element, which caused an AssertionError from JUnit.
+The symptom is that getLinks should have returned an empty List, but it returned a List with 1 element, which caused an AssertionError from JUnit. The bug is that MarkdownParse doesn't check if the String inside of the parentheses is a valid link. The test file has spaces inside of the parentheses, so our lab group decided it should not count as a link.
