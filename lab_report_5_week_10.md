@@ -1,4 +1,4 @@
-# FindingDiffering Results
+# Finding Differing Results
 
 + I used `diff` on both of the `results.txt` to find the line numbers that were different
 
